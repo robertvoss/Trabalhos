@@ -15,9 +15,10 @@ int main()
     imc = peso / (altura*altura);
     printf("Seu imc foi %f", imc);
     
-    if (imc>20, imc<25) printf("-Seu peso esta bom");
-     else if (imc>26, imc<30) printf("-Voce esta acima do peso");
-        else if (imc>31) printf("-Voce esta obeso");
+    if (imc<19) printf("-Voce esta abaixo do peso recomendado");
+        else if (imc>19, imc<25) printf("-Seu peso esta bom");
+         else if (imc>25, imc<30) printf("-Voce esta acima do peso");
+            else if (imc>30) printf("-Voce esta obeso");
         
     return 0;
     
