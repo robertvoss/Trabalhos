@@ -1,0 +1,19 @@
+int string_contagem(char str[]) {
+
+int i, resultado=1;
+   
+   //conta as letras
+
+for(i = 0; str[i] !='\0'; i++);
+  
+  //conta as palavras
+
+for(i = 0; str[i] != '\0'; i++) {
+ if(str[i] == ' ') {
+ result++;
+ }
+ }
+    
+    return i;
+    return resultado;
+}
