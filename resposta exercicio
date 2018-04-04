@@ -1,0 +1,16 @@
+Resposta do exercicio.
+
+
+
+
+int funcao (char vet [], char c)
+{
+int i=0; cont = 0;
+while (vet[i] != “\0”)
+	{	
+		if ( vet[i] == c)
+		{ cont ++; }
+	i++;
+	}
+return cont;
+}
